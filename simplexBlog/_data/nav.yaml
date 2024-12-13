@@ -1,0 +1,30 @@
+- title: Code #Menu item title.
+  url: category/programming.html #Menu item url.
+  icon: assets/img/icons/paint-roller-bucket-icon.svg #Menu item icon.
+  hue: "var(--c-themeHueBlue)" #Menu item hue - see note [1].
+  
+  subnav: #Subnav. See note [2].
+      - title: Python #Submenu item title.
+        url: category/cpp.html #Submenu item url.
+        hue: "var(--c-themeHueOrange)" #Submenu item hue.
+        subnav: #Another subnav
+            - title: Libraries
+              url: libs.html
+              hue: "var(--c-themeHueBlue)"
+
+
+
+
+
+- title: Art
+  url: category/design.html
+  icon: assets/img/icons/mobile-repair-icon.svg
+  hue: "var(--c-themeHueRed)"
+  
+  subnav:
+      - title: Digital
+        url: category/digital.html
+        hue: "var(--c-themeHueOrange)"
+      - title: Traditional
+        url: category/traditional.html
+        hue: "var(--c-themeHueBlue)"
